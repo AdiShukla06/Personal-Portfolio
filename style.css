@@ -84,6 +84,16 @@ button:hover{
     margin-left: 48%;
 }
 
+.socials{
+    font-family: 'Roboto', sans-serif;
+    color: #8d23b0;
+    font-size: small;
+    margin-left: 48.2%;
+    margin-top: 20px;
+}
+
+
+
 .whoAmISection{
     display: flex;
 }
