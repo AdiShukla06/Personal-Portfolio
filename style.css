@@ -49,7 +49,7 @@ nav a{
 }
 
 .mypic img{
-    width: 330px;
+    max-width: 330px;
     margin-top: 70px;
 }
 
@@ -87,12 +87,44 @@ button:hover{
 .socials{
     font-family: 'Roboto', sans-serif;
     color: #8d23b0;
-    font-size: small;
-    margin-left: 48.2%;
+    font-size: 15px;
+    margin-left: 47.7%;
     margin-top: 20px;
 }
 
 
+
+.socialAcc{
+    position: relative;
+    left: 38.2%;
+}
+
+.fa{
+    margin: 10px 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-twitter:hover{
+    color: #55ACEE;
+}
+
+.fa-instagram:hover{
+    color: #E1306C;
+}
+
+.fa-linkedin:hover{
+    color: #0077b5;
+}
+
+.fa-github:hover{
+    color: #141414;
+}
+
+.fa-youtube:hover{
+    color: #FF0000;
+}
 
 .whoAmISection{
     display: flex;
@@ -101,12 +133,12 @@ button:hover{
 .aboutMe{
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 110px;
 }
 
 .myPic2 img{
     width: 500px;
-    margin-top: 180px;
+    margin-top: 90px;
     border-radius: 50%;
     
 }
@@ -129,7 +161,7 @@ button:hover{
 .mySkills{
     display: flex;
     flex-direction: row;
-    margin-top: 90px;
+    margin-top: 150px;
 }
 
 .firstLine .thirdLine{
