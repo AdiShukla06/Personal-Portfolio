@@ -1,0 +1,403 @@
+/* Fonts:  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@650&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #FBEEFF;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+
+nav a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #8d23b0;
+}
+
+.navButton{
+    float: right;
+    margin-left: 35px;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.heroSection{
+    display: flex;
+    flex-direction: row;
+}
+
+.myself{
+    font-family: 'Montserrat', sans-serif;
+    color: #8d23b0;
+    font-size: 60px;
+    margin-top: 140px;
+}
+
+.mypic img{
+    width: 330px;
+    margin-top: 70px;
+}
+
+.intro{
+    font-family: 'Montserrat', sans-serif;
+    color: #8d23b0;
+    font-size: 42px;
+    margin-top: 180px;
+}
+
+button{
+    width: 100px;
+    height: 29px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: #FBEEFF;
+    background-color: #8d23b0;
+    border: none;
+    border-radius: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #8d23b0;
+    background-color: #FBEEFF;
+    border:solid 1px #8d23b0;
+}
+
+.hireMe{
+    margin-top: 40px;
+    margin-left: 48%;
+}
+
+.whoAmISection{
+    display: flex;
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.myPic2 img{
+    width: 500px;
+    margin-top: 180px;
+    border-radius: 50%;
+    
+}
+
+.headingAboutMe{
+    font-family: 'Montserrat', sans-serif;
+    color: #8d23b0;
+    font-size: 40px;
+}
+
+.subHeadingAboutMe{
+    font-family: 'Lato', sans-serif;
+    color:#8d23b0;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.mySkills{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+}
+
+.firstLine .thirdLine{
+    display: flex;
+    flex-direction: column;
+}
+
+.thirdLine{
+    /* margin-left: 425.1px; */
+    position: relative;
+    left: 174px;
+}
+
+.secondLine{
+    margin-top: 254px;
+    
+}
+
+.photo{
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 7px 7px 25px 0px #8d23b0
+}
+
+#webDevelopment{
+    margin-top: 250px;
+    
+}
+
+#VideoEditing{
+    margin-top: 250px;
+    
+}
+
+
+
+.mySkillsTitle{
+    text-align: center;
+    background-color: #8d23b0;
+    color: #FBEEFF;
+    padding: 40px;
+    border-radius: 50%;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 2px 3px 20px #8d23b0;
+}
+
+.myWorkHeading{
+    font-family: 'Montserrat', sans-serif;
+    color: #8d23b0;
+    font-size: 40px;
+    margin-top: 120px;
+    text-align: center;
+    
+}
+
+.works{
+    display: flex;
+    flex-direction: column;
+}
+
+.workImage{
+    border:  #8d23b0;
+    border-radius: 25px;
+    box-shadow: 7px 7px 25px 0px #8d23b0
+}
+
+.chatAnalysis{
+    display: flex;
+}
+
+#chatanalysis{
+    width: 250px;
+    margin-top: 50px;
+    
+}
+
+.chattext{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.chathead{
+    font-family: 'Roboto', sans-serif;
+    color: #8d23b0;
+    font-size: 30px;
+}
+
+.chatsubhead{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #8d23b0;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.viewproject{
+    margin-top: 12px;
+}
+
+#contentmanager{
+    width: 250px;
+    margin-top: 50px;
+    align-self: flex-end;
+    
+}
+
+.contentManager{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contenthead{
+    font-family: 'Roboto', sans-serif;
+    color: #8d23b0;
+    font-size: 30px;
+}
+
+.contenttext{
+    margin-top: 70px;
+}
+
+.contentsubhead{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #8d23b0;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.viewaccount{
+    margin-top: 12px;
+}
+
+#portfolio{
+    width: 250px;
+    height: 190px;
+    margin-top: 50px;
+}
+
+
+.portfoliowebsite{
+    display: flex;
+    
+}
+
+.portfoliohead{
+    font-family: 'Roboto', sans-serif;
+    color: #8d23b0;
+    font-size: 30px;
+}
+
+.portfoliotext{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.portfoliosubhead{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    color: #8d23b0;
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.visit{
+    margin-top: 12px;
+}
+
+
+.wanttohire{
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+}
+
+.hireimage{
+    margin-left: 70px;
+    border-radius: 15px;
+    width: 330px;
+}
+
+.hiretext{
+    font-family: 'Montserrat', sans-serif;
+    color: #8d23b0;
+    font-size: 50px;
+    margin: 85px;
+    margin-left: 100px;
+}
+
+.contactForm{
+    background-color: #8d23b0;
+    margin-top: 50px;
+    width: 71%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.contacthead{
+    color: #FBEEFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+label{
+    color: #FBEEFF;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+    
+} 
+
+.name{
+    margin-top: 20px;
+    
+}
+
+.nametitle{
+    position: relative;
+    top: 8px;
+}
+
+.emailidtitle{
+    position: relative;
+    top: 9px;
+}
+
+.email{
+    margin-top: 15px;
+}
+
+.message{
+    margin-top: 15px;
+}
+
+#message{
+    height: 150px;
+}
+
+.messagetitle{
+    position: relative;
+    top: 64px;
+}
+
+input{
+    margin-right: 40px;
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid #FBEEFF;
+    padding: 10px;
+    float: right;
+}
+
+
+.submitButton{
+    width: 20%;
+    margin-left: 48%;
+}
+input[type=submit]{
+    background-color: #FBEEFF;
+    border-radius: 60px;
+    margin-top: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #8d23b0;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #8d23b0;
+    border:solid 1px #FBEEFF;
+    color: #FBEEFF;
+
+}
