@@ -135,12 +135,14 @@ button:hover{
     display: flex;
     flex-direction: column;
     margin-top: 110px;
+    justify-content: center;
+    margin-right: 60px;
 }
 
 .myPic2 img{
-    width: 500px;
-    margin-top: 90px;
-    border-radius: 50%;
+    width: 200px;
+    margin-top: 50px;
+    /* border-radius: 50%; */
     
 }
 
